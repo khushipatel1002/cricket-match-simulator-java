@@ -11,10 +11,7 @@ A console-based Java application that simulates a cricket match between two team
 * Wide ball and no-ball support
 * Free-hit implementation
 * Over-wise statistics
-* Player-wise scorecards
 * Match result calculation
-* Team and player management
-
 
 ### Technologies Used
 
@@ -23,14 +20,12 @@ A console-based Java application that simulates a cricket match between two team
 * Interfaces
 * Exception Handling
 
-
 ### Run the Project
 
 ```bash
 javac custexc/*.java interfaces/*.java player/*.java team/*.java match/*.java
 java match.CricketMatch
 ```
-
 ### Project Structure
 
 custexc/
@@ -38,6 +33,3 @@ interfaces/
 match/
 player/
 team/
-
-
-
